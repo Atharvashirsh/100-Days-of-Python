@@ -1,6 +1,6 @@
 # Day 1
 
-## The prnt() statement
+## The print() statement
 
 ```python
 print("Hello World!")
