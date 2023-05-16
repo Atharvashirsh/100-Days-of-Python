@@ -20,11 +20,12 @@
 -   Day 9 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%209">Dictionaries, Nesting and the Secret Auction</a>
 -   Day 10 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2010">Functions with Outputs</a>
 -   Day 11 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2011">The Blackjack Capstone Project</a>
+-   Day 12 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2012">Scope & Number Guessing Game</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 11</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 12</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
