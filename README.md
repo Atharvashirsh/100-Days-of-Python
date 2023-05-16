@@ -30,5 +30,5 @@
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
   <h5>✨ Atharvashirsh Tiwary ✨</h5>
-  <h6>Web Developer | Flutter Developer | Python</h6>
+  <h6>🤖 Web Developer | Flutter Developer | Python 🤖</h6>
 </div>
