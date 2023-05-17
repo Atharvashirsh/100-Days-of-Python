@@ -21,11 +21,12 @@
 -   Day 10 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2010">Functions with Outputs</a>
 -   Day 11 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2011">The Blackjack Capstone Project</a>
 -   Day 12 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2012">Scope & Number Guessing Game</a>
+-   Day 13 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2013">Debugging How to Find and Fix Errors in your Code</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 12</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 13</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
