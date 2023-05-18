@@ -26,7 +26,7 @@
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 13</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 14</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
