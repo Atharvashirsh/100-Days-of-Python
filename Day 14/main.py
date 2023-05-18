@@ -5,7 +5,7 @@ import os
 
 
 def compare(num1, num2):
-    if num1 > num2:
+    if num1 >= num2:
         return True
     else:
         return False
@@ -31,11 +31,8 @@ def higherlower():
     should_continue = True
     score = 0
 
-    # Clearing the screen
-    os.system("cls")
-
     val1 = random_num()
-
+    print(str(val1) + "\n")
     while should_continue:
         a_followers = get_followers(val1)
         print("Compare A: " + generate_person(val1))
@@ -43,6 +40,7 @@ def higherlower():
         print(art.vs)
 
         val2 = random_num()
+        print(str(val2) + "\n")
         b_followers = get_followers(val2)
         print("Against B: " + generate_person(val2))
 
@@ -54,9 +52,14 @@ def higherlower():
                 print(f"You lose! Your score was {score}")
             else:
                 score += 1
-                val1 = val2
-                print(f"You are correct! Your score is {score}")
+
+                # Clear screen
                 os.system("cls")
+
+                # Print logo
+                print(art.logo)
+
+                print(f"You are correct! Your score is {score}")
 
         elif pick == "b":
             should_continue = compare(b_followers, a_followers)
@@ -65,14 +68,24 @@ def higherlower():
             else:
                 score += 1
                 val1 = val2
-                print(f"You are correct! Your score is {score}")
+
+                # Clear screen
                 os.system("cls")
+
+                # Print logo
+                print(art.logo)
+
+                print(f"You are correct! Your score is {score}")
 
         else:
             print("Invalid value selected")
             should_continue = False
 
 
+# Clear screen
+os.system("cls")
+
 # Print logo
 print(art.logo)
+
 higherlower()
