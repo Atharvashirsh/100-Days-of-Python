@@ -23,11 +23,12 @@
 -   Day 12 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2012">Scope & Number Guessing Game</a>
 -   Day 13 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2013">Debugging How to Find and Fix Errors in your Code</a>
 -   Day 14 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2014">Higher Lower Game Project</a>
+-   Day 15 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2015">Local Development Environment Setup & the Coffee Machine</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 14</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 15</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
