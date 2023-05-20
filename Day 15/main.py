@@ -65,7 +65,7 @@ def get_coins(coffee):
     total_money = round(
         0.25 * quarters + 0.10 * dimes + 0.05 * nickels + 0.01 * pennies, 2
     )
-    print(total_money)
+
     if total_money > MENU[coffee]["cost"]:
         change = total_money - MENU[coffee]["cost"]
         print(f"Here's your change ${round(change,2)}")
@@ -108,3 +108,5 @@ while is_on:
             money_made += get_coins(choice)
             resources_used(choice)
             print(f"Here is your {choice}. Enjoy!")
+    else:
+        print("Invalid choice! Try again!")
