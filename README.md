@@ -26,11 +26,12 @@
 -   Day 15 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2015">Local Development Environment Setup & the Coffee Machine</a>
 -   Day 16 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2016">Object Oriented Programming (OOP)</a>
 -   Day 17 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2017">The Quiz Project & the Benefits of OOP</a>
+-   Day 18 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2018">Turtle & the Graphical User Interface (GUI)</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 17</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 18</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
