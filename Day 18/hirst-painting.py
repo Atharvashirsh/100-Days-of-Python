@@ -9,6 +9,16 @@
 
 # print(turtle_colors)
 
+import turtle as t
+import random
+
+tim = t.Turtle()
+screen = t.Screen()
+
+STARTING_X = 20 - screen.window_width() / 2
+STARTING_Y = 20 - screen.window_height() / 2
+
+print(STARTING_X, STARTING_Y)
 turtle_colors = [
     (236, 244, 250),
     (236, 224, 80),
@@ -47,22 +57,18 @@ turtle_colors = [
     (250, 11, 8),
 ]
 
-import turtle as t
+t.colormode(255)
 
-tim = t.Turtle()
-screen = t.Screen()
-
-tim.speed(0)
-tim.penup()
 tim.hideturtle()
-tim.goto(20 - screen.window_width() / 2, 20 - screen.window_height() / 2)
-tim.showturtle()
-tim.pendown()
+tim.speed(0)
 
-for i in range(0, 500, 50):
-    for j in range(10):
-        tim.dot(20, "blue")
+tim.penup()
+tim.goto(STARTING_X, STARTING_Y)
+
+for i in range(1, 14):
+    for j in range(16):
+        tim.dot(20, random.choice(turtle_colors))
         tim.forward(50)
-    tim.goto(20 - screen.window_width() / 2, 20 - (screen.window_height() - i) / 2)
+    tim.goto(STARTING_X, 20 - (screen.window_height() - i * 100) / 2)
 
 screen.exitonclick()
