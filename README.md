@@ -9,6 +9,8 @@
 
 ### Contents
 
+#### Beginner 😄
+
 -   Day 1 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%201">Working with Variables in Python to Manage Data</a>
 -   Day 2 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%202">Understanding Data Types and How to Manipulate Strings</a>
 -   Day 3 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%203">Control Flow and Logical Operators</a>
@@ -23,6 +25,9 @@
 -   Day 12 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2012">Scope & Number Guessing Game</a>
 -   Day 13 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2013">Debugging How to Find and Fix Errors in your Code</a>
 -   Day 14 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2014">Higher Lower Game Project</a>
+
+#### Intermediate 📚
+
 -   Day 15 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2015">Local Development Environment Setup & the Coffee Machine</a>
 -   Day 16 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2016">Object Oriented Programming (OOP)</a>
 -   Day 17 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2017">The Quiz Project & the Benefits of OOP</a>
