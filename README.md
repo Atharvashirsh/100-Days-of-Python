@@ -1,4 +1,6 @@
 <div align="center">
+
+<img href = "WELCOME TO PYTHON" src="https://codecaymanweb.blob.core.windows.net/public/programs/banner-py.png">
 <h1> 100 Days of Python </h1>
 <p>This is my <a href="Pledge/100 Days of Python Pledge.pdf">pledge</a> to complete the 100 days of Python. </p>
  <br> 
