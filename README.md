@@ -32,11 +32,12 @@
 -   Day 16 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2016">Object Oriented Programming (OOP)</a>
 -   Day 17 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2017">The Quiz Project & the Benefits of OOP</a>
 -   Day 18 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2018">Turtle & the Graphical User Interface (GUI)</a>
+-   Day 19 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2019">Instances, State and Higher Order Functions</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 18</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 19</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
