@@ -36,11 +36,12 @@
 -   Day 18 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2018">Turtle & the Graphical User Interface (GUI)</a>
 -   Day 19 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2019">Instances, State and Higher Order Functions</a>
 -   Day 20 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2020">Build the Snake Game Part 1 Animation & Coordinates</a>
+-   Day 21 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2021">Build the Snake Game Part 2 Inheritance & List Slicing</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 20</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 21</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
