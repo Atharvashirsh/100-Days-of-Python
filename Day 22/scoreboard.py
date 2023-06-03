@@ -9,23 +9,23 @@ class Score(Turtle):
         self.color("white")
         self.penup()
         self.hideturtle()
-        self.goto(0, 250)
         self.update_scoreboard()
 
     def l_scored(self):
         self.l_score += 1
-        self.reset()
         self.update_scoreboard()
 
     def r_scored(self):
         self.r_score += 1
-        self.rem
         self.update_scoreboard()
 
     def update_scoreboard(self):
+        self.clear()
+        self.goto(-100, 220)
         self.write(
-            f"{self.l_score}     {self.r_score}",
-            True,
-            align="center",
-            font=("Arial", 36, "normal"),
+            f"{self.l_score}", True, align="center", font=("Arial", 36, "normal")
+        )
+        self.goto(100, 220)
+        self.write(
+            f"{self.r_score}", True, align="center", font=("Arial", 36, "normal")
         )

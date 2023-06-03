@@ -27,7 +27,7 @@ game_over = False
 while not game_over:
     ball.move()
     screen.update()
-    time.sleep(0.06)
+    time.sleep(ball.ball_speed)
 
     # Detect collisions
     if ball.ycor() > 280 or ball.ycor() < -280:
