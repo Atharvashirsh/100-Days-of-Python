@@ -1,43 +1,55 @@
-from turtle import Screen, Turtle
-
-
-def go_up():
-    new_y = user_paddle.ycor() + 20
-    user_paddle.goto(user_paddle.xcor(), new_y)
-
-
-def go_down():
-    new_y = user_paddle.ycor() - 20
-    user_paddle.goto(user_paddle.xcor(), new_y)
-
-
-def exit_game():
-    global game_over
-    game_over = True
-
+from turtle import Screen
+from paddle import Paddle
+from ball import Ball
+from scoreboard import Score
+import time
 
 screen = Screen()
 screen.tracer(0)
-screen.setup(width=800, height=500)
+screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("My Pong Game.")
 
-user_paddle = Turtle(shape="square")
-user_paddle.penup()
 
-user_paddle.shapesize(stretch_wid=5, stretch_len=1)
-user_paddle.color("white")
-user_paddle.goto(350, 0)
-screen.update()
+r_paddle = Paddle((350, 0))
+l_paddle = Paddle((-350, 0))
+ball = Ball()
+score = Score()
 
 screen.listen()
-screen.onkey(go_up, "Up")
-screen.onkey(go_down, "Down")
-screen.onkey(exit_game, "X")
+screen.onkey(l_paddle.go_up, "w")
+screen.onkey(l_paddle.go_down, "s")
+screen.onkey(r_paddle.go_up, "Up")
+screen.onkey(r_paddle.go_down, "Down")
 
 game_over = False
 
 while not game_over:
+    ball.move()
     screen.update()
+    time.sleep(0.06)
+
+    # Detect collisions
+    if ball.ycor() > 280 or ball.ycor() < -280:
+        ball.bounce_y()
+
+    # Detect collision with paddle
+    if (
+        ball.distance(r_paddle) < 50
+        and ball.xcor() > 320
+        or ball.distance(l_paddle) < 50
+        and ball.xcor() < -320
+    ):
+        ball.bounce_x()
+
+    # Detect r_paddle miss
+    if ball.xcor() > 400:
+        score.l_scored()
+        ball.start_over()
+
+    # Detect l_paddle miss
+    if ball.xcor() < -400:
+        score.r_scored()
+        ball.start_over()
 
 screen.exitonclick()
