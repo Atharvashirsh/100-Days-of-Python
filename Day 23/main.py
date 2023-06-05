@@ -29,3 +29,7 @@ while game_is_on:
 
     car_manager.create_car()
     car_manager.move_all_cars()
+
+    for car in car_manager.all_cars:
+        if player.distance(car) < 27 and car.ycor() != player.ycor():
+            game_is_on = False
