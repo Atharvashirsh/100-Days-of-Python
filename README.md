@@ -39,11 +39,12 @@
 -   Day 21 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2021">Build the Snake Game Part 2 Inheritance & List Slicing</a>
 -   Day 22 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2022">Build Pong The Famous Arcade Game</a>
 -   Day 23 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2023">The Turtle Crossing Capstone Project</a>
+-   Day 24 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2024">Files, Directories and Paths</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 23</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 24</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
