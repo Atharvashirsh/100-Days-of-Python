@@ -40,11 +40,12 @@
 -   Day 22 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2022">Build Pong The Famous Arcade Game</a>
 -   Day 23 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2023">The Turtle Crossing Capstone Project</a>
 -   Day 24 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2024">Files, Directories and Paths</a>
+-   Day 25 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2025">Working with CSV Data and the Pandas Library</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 24</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 25</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
