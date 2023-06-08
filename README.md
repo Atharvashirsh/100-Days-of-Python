@@ -41,11 +41,12 @@
 -   Day 23 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2023">The Turtle Crossing Capstone Project</a>
 -   Day 24 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2024">Files, Directories and Paths</a>
 -   Day 25 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2025">Working with CSV Data and the Pandas Library</a>
+-   Day 26 : <a href="https://github.com/Atharvashirsh/100-Days-of-Python/tree/main/Day%2026">List Comprehension and the NATO Alphabet</a>
 
 <div align="center">
 <h5>📆 Journey started : 5th May </h5>
 
- <h5> 🏆 Current day : <i>Day 25</i>  </h5>
+ <h5> 🏆 Current day : <i>Day 26</i>  </h5>
 
   <h5>Star ⭐ this repository if you found it helpful </h5>
   
