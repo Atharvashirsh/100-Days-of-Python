@@ -23,6 +23,15 @@ while len(guessed_states) < 50:
     ).title()
 
     if guess == "Exit":
+        states_to_learn = [
+            state for state in states["state"].to_list() if state not in guessed_states
+        ]
+        # for state in states["state"].to_list():
+        #     if state not in guessed_states:
+        #         states_to_learn.append(state)
+
+        new_data = pandas.DataFrame(states_to_learn)
+        new_data.to_csv("states_to_learn.csv")
         break
 
     if guess in states["state"].to_list():
@@ -32,11 +41,3 @@ while len(guessed_states) < 50:
         writer.write(data["state"].item())
 
 # states_to_learn.csv
-
-states_to_learn = []
-for state in states["state"].to_list():
-    if state not in guessed_states:
-        states_to_learn.append(state)
-
-new_data = pandas.DataFrame(states_to_learn)
-new_data.to_csv("states_to_learn.csv")
